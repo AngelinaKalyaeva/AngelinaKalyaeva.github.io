@@ -434,7 +434,7 @@ background: #3F3F3F;
     .clients .carousel-inner{
         text-align: center;
     }
-    .clients .carousel-inner .img-1,.img-2,.img-3,.img-4,.img-5{
+    .clients .carousel-inner .img-1,.carousel-inner .img-2,.carousel-inner .img-3,.img-4,.img-5{
         width: 60%;
         margin-top: -15px;
         margin-bottom: 26px;
