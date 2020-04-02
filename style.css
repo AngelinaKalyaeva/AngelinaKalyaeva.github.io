@@ -676,8 +676,8 @@ background: #3F3F3F;
         color: #5F86C4;
     }
     .feedback .block4{
-        width: 570px;
         font-size: 18px;
         margin-top: -90px;
+        text-align: inherit;
     }
 }
