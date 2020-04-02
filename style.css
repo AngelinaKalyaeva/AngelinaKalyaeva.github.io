@@ -302,7 +302,7 @@ background: #3F3F3F;
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%235C5C5C' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
 
-.feedback{
+.feedback .container{
     background-image: url("img/image21.png");
     background-repeat: no-repeat;
     background-position: 90% 90%;
@@ -475,7 +475,7 @@ background: #3F3F3F;
     .clients .review p{
         font-size: 16px;
     }
-    .feedback{
+   .feedback .container{
         background-position: 90% 20%;
     }
     .feedback h1{
@@ -651,7 +651,7 @@ background: #3F3F3F;
     .clients .last{
         padding-bottom: 30px;
     }
-    .feedback{
+    .feedback .container{
         background-position: 90% 40%;
     }
     .feedback h1{
