@@ -662,6 +662,7 @@ background: #3F3F3F;
         margin-top: 100px;
     }
     .feedback .block1{
+        width: initial;
         margin-top: 53px;
         margin-left: 59px;
     }
