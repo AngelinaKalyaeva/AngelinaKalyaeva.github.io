@@ -62,13 +62,23 @@
                           method="post" id="email_form">
                         <input type="hidden" name="subject" value="Заявка с сайта Intems Lab." />
                         <input class="validation" type="tel" name="text" placeholder="Ваш телефон" pattern="^\+?[78][-\(]?\d{3}\)?-?\d{3}-?\d{2}-?\d{2}$">
-                        <input type="hidden" name="access_token" value="hwvj5qlxp3dolh9dmh153j34" />
+                        <input type="hidden" name="access_token" value="4lqsmx5qhdtfvna9zhd8lkez" />
                         <input type="hidden" name="success_url" value="https://angelinakalyaeva.github.io/" />
                         <input type="hidden" name="error_url" value="https://angelinakalyaeva.github.io/" />
                         <div class="clearfix">
                             <input id="submit_form" type="submit" value="Оставить заявку" />
                         </div>
                     </form>
+                     <script>
+                        var submitButton = document.getElementById("submit_form");
+                        var form = document.getElementById("email_form");
+                        form.addEventListener("submit", function (e) {
+                            setTimeout(function() {
+                                submitButton.value = "Отправка...";
+                                submitButton.disabled = true;
+                            }, 1);
+                        });
+                    </script>
                 </div>
                 <div class="col-md-12 col-lg-6">
                     <img src="img/mainImg.png" class="img-fluid">
@@ -166,7 +176,7 @@
                                   method="post" id="email_form_1">
                                 <input type="hidden" name="subject" value="Заявка с сайта Intems Lab." />
                                 <input class="validation" type="tel" name="text" placeholder="Ваш телефон" pattern="^\+?[78][-\(]?\d{3}\)?-?\d{3}-?\d{2}-?\d{2}$">
-                                <input type="hidden" name="access_token" value="hwvj5qlxp3dolh9dmh153j34" />
+                                <input type="hidden" name="access_token" value="4lqsmx5qhdtfvna9zhd8lkez" />
                                 <input type="hidden" name="success_url" value="https://angelinakalyaeva.github.io/" />
                                 <input type="hidden" name="error_url" value="https://angelinakalyaeva.github.io/" />
                                 <input id="submit_form_1" type="submit" value="Оставить заявку" />
@@ -461,7 +471,7 @@
                         <p>Оставьте заявку, и наш консультант перезвонит вам!</p>
                         <input type="hidden" name="subject" value="Заявка с сайта Intems Lab." />
                         <input class="validation" type="tel" name="text" placeholder="Ваш телефон" pattern="^\+?[78][-\(]?\d{3}\)?-?\d{3}-?\d{2}-?\d{2}$">
-                        <input type="hidden" name="access_token" value="hwvj5qlxp3dolh9dmh153j34" />
+                        <input type="hidden" name="access_token" value="4lqsmx5qhdtfvna9zhd8lkez" />
                         <input type="hidden" name="success_url" value="https://angelinakalyaeva.github.io/" />
                         <input type="hidden" name="error_url" value="https://angelinakalyaeva.github.io/" />
                         <input id="submit_form_2" type="submit" value="Оставить заявку" />
